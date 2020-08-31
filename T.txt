@@ -1,0 +1,5 @@
+
+function fun(){
+  alert("Booking succesful!!");
+  alert("Enjoy your stay~");
+}

@@ -1,0 +1,135 @@
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	font-family:roboto;
+}
+.b1{
+	background-image:url("inn1.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:100vh;
+	width: 100%;
+	background-size: cover;
+
+}
+.f1{
+font-size:50px;  
+color:white;
+font-weight:bold; 
+padding:20px;
+top:45%;
+width:100%;
+}
+.ul1{
+
+	width:100%; 
+	padding:0px 0px;	
+	text-align: center;
+}
+
+
+
+.li1{
+	display:inline-block;
+	color:white;
+	padding:8px 40px 8px 40px; 	
+	font-size: 17px;
+}
+.li1:hover
+{
+	background-color: rgba(52,52,52,0.90);
+}
+.last_li
+{
+	border-style:none;
+}
+
+.both
+{
+ width: 60%;
+}
+
+.sec1{
+	
+	background-color: rgba(52,52,52,0.86);
+
+	text-align: left;
+	width: 500px;
+}
+.sec2
+{
+	margin-top: 10px;
+	background-color: rgba(52,52,52,0.86);
+
+}
+h1{
+	font-size: 50px;
+	text-align: left;
+	margin-top:5%;
+	color: white;
+	background-color: rgba(52,52,52,0.86);
+	display: inline-block;
+	font-weight:normal;
+	padding:5px 50px 5px 8.75%;	
+}
+
+/*facility stuff*/
+
+.facility_container{
+	padding: 55px;
+	text-align: center;
+
+}
+
+.displayblock
+{
+margin-bottom:55px;
+height: 300px;
+}
+
+.I
+{
+	display: inline-block;
+	vertical-align: top;
+	height: 300px;
+}
+.p1
+{
+	text-align: left;
+	color: white;
+	line-height: 1.5rem;
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	margin-left: 20px;
+	padding: 30px;
+	background-color: rgb(225,70,88);
+}
+
+.ul2
+{
+	column-count: 3;
+}
+
+h2{
+	font-size:30px;
+}
+
+footer
+ {
+     font-size:30px;
+     background-color: white;
+
+}
+footer i{
+    color:black;
+    float:right;
+    margin-top: calc(10vh - 15px);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo{
+    height:20vh;
+	cursor: pointer;
+}

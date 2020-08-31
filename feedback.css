@@ -1,0 +1,123 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: roboto;
+    box-sizing: border-box;
+
+}
+body{
+background-image:url("inn.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+	font-size: 50px;
+	text-align: left;
+	margin-top:5%;
+	color: white;
+	background-color: rgba(52,52,52,0.86);
+	display: inline-block;
+	font-weight:normal;
+	padding:5px 50px 5px 8.75%;	
+}
+
+form
+{
+    position: absolute;
+    top: 30%;
+    left: calc(50vw - 700px/2);
+    text-align: center;
+    margin:0px;
+    width: 700px;
+    background: #22252c;
+    padding: 30px 60px;
+}
+
+.input
+{
+    margin: 8px 0px;
+    height: 34px;
+    font-size : 20px;
+    padding-left: 10px; 
+    width: 48.8%;
+}
+
+textarea
+{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin: 8px 0px;
+    padding: 10px;
+}
+.padding
+{
+    width: 5px;
+    display: inline-block;
+    height: 10px;
+}
+.full
+{
+    width: 100%;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top : 10px;
+
+}
+button
+{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    background-color:rgba(52,52,52,0.86);
+    border: none;
+}
+
+button:hover
+{
+    background-color:#3f3250;
+
+}
+.ul1{
+
+	width:100%; 
+	padding:0px 0px;	
+	text-align: center;
+}
+
+
+
+.li1{
+	display:inline-block;
+	color:white;
+	padding:8px 40px 8px 40px; 	
+	font-size: 17px;
+}
+li:hover
+{
+	background-color: rgba(52,52,52,0.90);
+}
+.last_li
+{
+	border-style:none;
+}
+.sec2{
+	margin-top: 10px;
+	background-color: rgba(52,52,52,0.86);
+	width:60%;
+	text-align:center;
+	/*position:absolute;
+	left: calc(50vw - 700px/2); */
+	margin-bottom:0px;
+	margin-top:10px;
+}
